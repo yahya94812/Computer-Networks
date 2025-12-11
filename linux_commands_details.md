@@ -88,6 +88,9 @@ inet 10.156.40.180/24
 * `/24` → subnet mask `255.255.255.0`.
     
 * Valid for **3360 seconds** (lease time).
+
+* brd 10.156.40.255 refers to the broadcast address of your IPv4 network
+* A broadcast address is a special IP address used to send a packet to all devices within the same subnet simultaneously.
     
 
 ### **IPv6 addresses**

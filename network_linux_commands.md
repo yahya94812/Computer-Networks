@@ -236,7 +236,9 @@ Useful for checking client/server activity.
 * * *
 
 ## **4.3 Show processes using sockets**
+* At the operating system level, a socket(software) binds an application (process) to a port number and protocol on a given IP address.
 
+* More precisely: The OS uses sockets to associate a process with a (IP address, port number, protocol) tuple, so incoming network packets can be delivered to the correct application.
 ```bash
 ss -p
 ```
@@ -387,7 +389,7 @@ Advanced example:
 sudo tcpdump -i eth0 port 80
 ```
 
-* * *
+* * *   
 
 # **7. Live Traffic Monitoring**
 
@@ -491,7 +493,3 @@ sudo systemctl restart NetworkManager
 ```
 
 * * *
-
-# ✅ Want a downloadable **PDF** version of all this (clean, formatted, with examples)?
-
-I can generate it for you automatically.

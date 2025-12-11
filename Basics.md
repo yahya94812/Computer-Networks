@@ -1,5 +1,7 @@
 # Computer Networking Fundamentals
 
+## TCP(Transmission Control Protocol)
+* It consists of four layers: Network Interface, Internet, Transport, and Application.)
 ## 1. Localhost & Loopback Address
 
 **Localhost** is a special hostname that refers to your own computer, making requests to itself.
